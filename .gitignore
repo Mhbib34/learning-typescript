@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Jest coverage
+coverage/
+
+# VSCode settings (opsional)
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Optional: ignore output folders for test results
+test-results/
+
+# Optional: ignore IDE-specific settings
+.idea/
+*.iml
