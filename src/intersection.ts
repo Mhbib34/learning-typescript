@@ -6,4 +6,4 @@ interface HasAge {
 	age: number;
 }
 
-type Person = HasName & HasAge;
+export type Person = HasName & HasAge;
